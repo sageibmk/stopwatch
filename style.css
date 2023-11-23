@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: fit-content;
+    padding: 25px 35px;
+    border-radius: 12px;
+    background-color: #06021bef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+label{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
+button{
+    padding: 5px 10px;
+    margin-top: 15px;
+    border-radius: 12px;
+    background-color: #012;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1rem;
+}
